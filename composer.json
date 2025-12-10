@@ -1,10 +1,11 @@
 {
-    "name": "example/aho-corasick-blacklist",
-    "description": "使用 Aho-Corasick 算法匹配黑名单词库的示例",
-    "type": "project",
+    "name": "shishirui/aho-corasick-php",
+    "description": "A PHP implementation of Aho-Corasick algorithm for efficient multi-pattern string matching, perfect for blacklist filtering and sensitive word detection",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["aho-corasick", "pattern-matching", "trie", "automaton", "blacklist", "filter", "sensitive-word"],
     "require": {
-        "php": ">=7.4",
-        "vanderlee/syllable": "^1.5"
+        "php": ">=7.4"
     },
     "autoload": {
         "psr-4": {

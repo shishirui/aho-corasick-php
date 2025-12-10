@@ -1,0 +1,14 @@
+{
+    "name": "example/aho-corasick-blacklist",
+    "description": "使用 Aho-Corasick 算法匹配黑名单词库的示例",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "vanderlee/syllable": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src/"
+        }
+    }
+}

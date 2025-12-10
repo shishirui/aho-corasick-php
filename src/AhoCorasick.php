@@ -1,6 +1,6 @@
 <?php
 
-namespace Example;
+namespace Shishirui;
 
 /**
  * Aho-Corasick 自动机节点

@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/src/AhoCorasick.php';
 
-use Example\AhoCorasick;
+use Shishirui\AhoCorasick;
 
 // 黑名单词库
 $blacklist = [

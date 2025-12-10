@@ -217,8 +217,6 @@ $matches = $ac->search($text);
 foreach ($matches as $match) {
     $text = str_replace($match['keyword'], '', $text);
 }
-``` $text = str_replace($match['keyword'], '', $text);
-}
 ```
 
 ## 注意事项
@@ -236,4 +234,3 @@ MIT License
 
 - [Aho-Corasick Algorithm (Wikipedia)](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)
 - [字符串匹配算法](https://oi-wiki.org/string/ac-automaton/)
-# aho-corasick-php

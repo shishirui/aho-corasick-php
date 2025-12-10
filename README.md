@@ -47,7 +47,7 @@ php example.php
 
 require_once __DIR__ . '/src/AhoCorasick.php';
 
-use Example\AhoCorasick;
+use Shishirui\AhoCorasick;
 
 // 创建实例
 $ac = new AhoCorasick();
